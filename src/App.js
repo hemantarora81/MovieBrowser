@@ -54,7 +54,7 @@ function App() {
           headers: {
             accept: "application/json",
             Authorization:
-              "Bearer eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiIwMjZkZGYzODQ5OGY5YmUwNWEyZDYyNGE3NDMyYzU3NiIsIm5iZiI6MTcyNDA1OTg2Ny4wNzczOTEsInN1YiI6IjY2YzJlNTQ4N2NjMmYwN2JmOWM4NWY0NCIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.5MoWnJzelGfAvFb_6LE-N4MjqV0GFffhupB8I7TbwuA",
+              `Bearer ${process.env.TMDB_TOKEN}`,
           },
         };
 
